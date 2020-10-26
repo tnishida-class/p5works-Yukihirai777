@@ -14,3 +14,12 @@ function draw() {
   textFont("serif");
   text("77", 68, 100);
 }
+
+for(let m = 0; m < 16; m++){
+  for(let n = 0; n < 16; n++){
+    if(m % 2 == 1 && n % 2 == 1 && n < 6 && (m + n) % 4 = 0){
+    fill(255, 0, 0);
+    }
+    circle(size / 2 * i, size / 2 * j, size);
+  }
+}
