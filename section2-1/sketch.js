@@ -10,10 +10,10 @@ function setup() {
 }
 
 // for 文を使うと、同じプログラムを以下のように書くことができます
-// function setup() {
-//   createCanvas(100,100);
-//   fill(0);
-//   for(let i = 0; i < 5; i++){
-//     rect(i * 20, i * 20, 20, 20);
-//   }
-// }
+function setup() {// function setup() {
+  createCanvas(100,100);//   createCanvas(100,100);
+  fill(0);//   fill(0);
+  for(let i = 0; i < 5; i++){//   for(let i = 0; i < 5; i++){
+    rect(i * 20, i * 20, 20, 20);//     rect(i * 20, i * 20, 20, 20);
+  }//   }
+}// }
